@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+    margin: 0;
+    padding: 20px;
+
+}
+
+.resume-container{
+    display: flex;
+    background-color: rgba(12 , 15, 31 , 0.1);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+    box-sizing: border-box;
+}
+
+.section-1{
+    background-color: darkslategray;
+    color:lightgrey;
+    padding: 30px;
+    width: 35%;
+    text-align: center;
+    border-right: 6px solid lightseagreen;
+    box-sizing: border-box;
+}
+
+.profile{
+    width: 65%;
+    height: 35%;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 6px solid lightseagreen;
+}
+
+
+h1{
+    font-size: 40px;
+    margin: 15px 0;
+    margin-bottom: 35px;
+    text-align: center;
+    color: darkslateblue;
+}
+
+h3{
+    font-size: 20px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(72, 47, 107);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-bottom: 5px solid gainsboro;
+}
+
+ul{
+    list-style-type: square;
+    padding: 0;
+    margin: 10px 0;
+}
+
+ul li{
+    margin: 10px 25px;
+}
+
+.section-2{
+width: 60%;
+padding: 30px;
+box-sizing: border-box;
+}
+
+p{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 20px;
+    box-shadow: 0 0 15px blue;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: blue;
+    color: lightseagreen;
+}
+
+/* Responsive Adjustments*/
+@media screen and (max-width: 768px){
+    .resume-container{
+        flex-direction: column;
+    }
+
+    .section-1{
+        width: 100%;
+        border-right: none;
+        
+    }
+
+    .section-2{
+       width: 100%;
+       
+    }
+}
